@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+  <div class="center">
+    <div class="shifter">
+      <button id="extend">Change mode</button>
+    </div>
+    <header>
+      <h1>Simple Calculator</h1>
+    </header>
+      <aside>
+        <h2>history</h2>
+        <p class="history">
+        </p>
+      </aside>
+    <main>
+      <div class="wrapper">
+        <div class="tablo">
+        </div>
+        <div class="pad">
+          <div class="up">
+            <div class="toggle">
+              <div id="on"><span class="switch on">On&nbsp;|&nbsp;Off</span>
+              </div>
+            </div>
+            <div class="serve">
+              <input class="btn" id="percent" type="button" value="%">
+              <input class="btn" id="clear" type="button" value="C">
+              <input class="btn" id="res" type="button" value="=">
+            </div>
+          </div>
+          <div class="down">
+            <div class="figures">
+              <input class="btn" id="1" type="button" value="1">
+              <input class="btn" id="2" type="button" value="2">
+              <input class="btn" id="3" type="button" value="3">
+              <input class="btn" id="4" type="button" value="4">
+              <input class="btn" id="5" type="button" value="5">
+              <input class="btn" id="6" type="button" value="6">
+              <input class="btn" id="7" type="button" value="7">
+              <input class="btn" id="8" type="button" value="8">
+              <input class="btn" id="9" type="button" value="9">
+              <input class="btn" id="plus-minus" type="button" value="&#177;">
+              <input class="btn" id="0" type="button" value="0">
+              <input class="btn" id="dot" type="button" value=".">
+            </div>
+            <div class="ops">
+              <input class="btn" id="plus" type="button" value="+">
+              <input class="btn" id="minus" type="button" value="-">
+              <input class="btn" id="multy" type="button" value="&#42;">
+              <input class="btn" id="subdiv" type="button" value="&divide;">
+            </div>
+            <div id="extra-func" class="extra-func hidden">
+              <div class="extra-up">
+
+              </div>
+              <div class="extra-down">
+                <input class="btn" id="pi" type="button" value="&pi;">
+                <input class="btn" id="mod" type="button" value="mod">
+                <input class="btn" id="abs" type="button" value="|x|">
+                <input class="btn" id="rev" type="button" value="1/x">
+                <input class="btn" id="sqrt" type="button" value="&radic;x">
+                <input class="btn" id="sqr" type="button" value="x&sup2;">
+                <input class="btn" id="cube" type="button" value="x&sup3;">
+                <input class="btn" id="fact" type="button" value="n!">
+                <input class="btn" id="ln" type="button" value="ln">
+                <input class="btn" id="log" type="button" value="log">
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>  
+    </main>
+  </div>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
